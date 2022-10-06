@@ -1,0 +1,94 @@
+nav {
+  text-align: center;
+  padding-top: 20px;
+}
+nav > a {
+  border: 2px solid #ab6851;
+  padding: 8px 25px;
+  background-color: #eeeedc;
+  color: #d91b07;
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+nav > a:hover {
+  background-color: #30b513;
+}
+body {
+  background-color: #292927;
+  color: #ab6851;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+footer {
+  color: #ab6851;
+  text-align: center;
+  font-style: italic;
+  border-top: 2px solid #ab6851;
+  padding: 20px 0;
+}
+footer > a {
+  color: #d91b07;
+  text-decoration: none;
+}
+footer > a:hover {
+  background-color: #30b513;
+}
+
+form {
+  margin: 50px 25%;
+  text-align: center;
+}
+select {
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: 16px;
+  border: 2px solid #ab6851;
+  background-color: #eeeedc;
+  outline: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #ab6851;
+}
+
+input[type='checkbox'] {
+  margin-right: 15px;
+  transform: scale(1.25, 1.25);
+}
+input[type='radio'] {
+  transform: scale(1.25, 1.25);
+}
+
+#submit-button {
+  margin-top: 50px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  background-color: #30b513;
+  color: #eeeedc;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #ab6851;
+  font-family: 'Acme', sans-serif;
+}
+#submit-button:hover {
+  background-color: #30b51380;
+}
+#submit-button:focus {
+  outline: none;
+}
+#submit-button:active {
+  background-color: #30b51350;
+}
+h4 {
+  color: #30b513;
+  font-family: 'Acme', sans-serif;
+  font-size: 22px;
+  border-top: 2px solid #ab6851;
+  padding: 6px 0;
+}
+img {
+  height: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

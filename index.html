@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Acme|Noto+Sans+KR"
+      rel="stylesheet"
+    />
+    <img src="./images/redpepperpizzaheader.png" />
+
+    <title>
+      Order Pizza
+    </title>
+  </head>
+  <body>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Order</a>
+    </nav>
+    <form method="GET">
+      <div>
+        <h4>Select Your Pizza</h4>
+        <select name="pizza-select" id="pizza-select">
+          <option value="margherita" selected>Margherita</option>
+          <option value="hawaiian">Hawaiian</option>
+          <option value="cheese">Cheese</option>
+          <option value="vegetarian">Vegetarian</option>
+          <option value="tacodile-supreme">Tacodile Supreme</option>
+        </select>
+      </div>
+
+      <div>
+        <h4>Select Type Of Crust</h4>
+        <input type="radio" id="thin" name="crust" value="thin" checked />
+        <label for="thin" class="radio-label">Thin</label>
+        <input type="radio" id="thick" name="crust" value="thick" />
+        <label for="thick" class="radio-label">Thick</label>
+      </div>
+      <div>
+        <h4>Extra Options</h4>
+        <label for="cheese">Cheese</label>
+        <input
+          name="extra-options"
+          id="cheese"
+          type="checkbox"
+          value="cheese"
+        />
+        <label for="garlic">Garlic</label>
+        <input
+          name="extra-options"
+          id="garlic"
+          type="checkbox"
+          value="garlic"
+        />
+        <label for="sauce">Sauce</label>
+        <input name="extra-options" id="sauce" type="checkbox" value="sauce" />
+        <label for="onion">Onion</label>
+        <input name="extra-options" id="onion" type="checkbox" value="onion" />
+        <label for="mushroom">Mushroom</label>
+        <input
+          name="extra-options"
+          id="mushroom"
+          type="checkbox"
+          value="mushroom"
+        />
+        <br />
+        <label for="pineapple">Pineapple</label>
+        <input
+          name="extra-options"
+          id="pineapple"
+          type="checkbox"
+          value="pineapple"
+        />
+        <label for="ruccola">Ruccola</label>
+        <input
+          name="extra-options"
+          id="ruccola"
+          type="checkbox"
+          value="ruccola"
+        />
+        <label for="oregano">Oregano</label>
+        <input
+          name="extra-options"
+          id="oregano"
+          type="checkbox"
+          value="oregano"
+        />
+        <label for="tortilla-chips">Tortilla-chips</label>
+        <input
+          name="extra-options"
+          id="tortilla-chips"
+          type="checkbox"
+          value="tortilla-chips"
+        />
+        <label for="feta-cheese">Feta-cheese</label>
+        <input
+          name="extra-options"
+          id="feta-cheese"
+          type="checkbox"
+          value="feta-cheese"
+        />
+      </div>
+      <div>
+        <button id="submit-button" type="submit">Order</button>
+      </div>
+    </form>
+
+    <footer>
+      Contact Information. You can call us at 202-555-0166 or E-mail us at
+      <a href="mailto:mail@redpepperpizza.com">mail@redpepperpizza.com</a>
+    </footer>
+  </body>
+</html>
